@@ -4,5 +4,7 @@ public class TervitusTest {
             Tervitus vaikeTervitus = new Tervitus();
             kevinTervitus.tervita();
             vaikeTervitus.tervita();
+
     }
+
 }
