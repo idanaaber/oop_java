@@ -1,12 +1,14 @@
-public class Tervitus {
-    public static String tervitusTekst;
+import com.sun.org.apache.xpath.internal.SourceTree;
 
-    public static void tervita(){
-        System.out.println(tervitusTekst);
+public class Tervitus {
+    public String tervitusTekst;
+
+    public Tervitus(String t) {
+        this.tervitusTekst = t;
     }
 
-    public static void main(String[] args) {
-        tervitusTekst = "Tere Kevin!";
-        tervita();
+    public void tervita(){
+        System.out.println(tervitusTekst);
+
     }
 }
