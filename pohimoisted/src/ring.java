@@ -12,7 +12,7 @@ public class ring {
     }
 
     public void pindala(){
-        Double s = 3.14 * raadius * raadius;
-        System.out.println(s);
+        Double ringipindala = Math.PI * Math.pow(raadius, 2);
+        System.out.println("Antud ringi pindala on " + Math.round(ringipindala * 100)/100.0);
     }
 }
