@@ -4,5 +4,5 @@
 * T&uuml;&uuml;bi konstruktor (ilma ja parameetri[te]ga)
 ## Tarkvara 
 * [git](https://git-scm.com/download/win) - versioonihalduss&uuml;steemina (VCS)
-*[java](https://www.oracle.com/technetwork/java/javase/downloads/index.html) - java kompilaator ja interpretaator
-*[IntelliJ IDEA](https://www.jetbrains.com/idea/) - tekstiredaktorr
+* [java](https://www.oracle.com/technetwork/java/javase/downloads/index.html) - java kompilaator ja interpretaator
+* [IntelliJ IDEA](https://www.jetbrains.com/idea/) - tekstiredaktorr
