@@ -24,6 +24,20 @@ public class Kujund {
     public void setNurkadeOlemasolu(Boolean nurkadeOlemasolu) {
         this.nurkadeOlemasolu = nurkadeOlemasolu;
     }
+    //getterid
+
+
+    public String getNimetus() {
+        return nimetus;
+    }
+
+    public Boolean getNurkadeOlemasolu() {
+        return nurkadeOlemasolu;
+    }
+
+    public Integer getNurkadeArv() {
+        return nurkadeArv;
+    }
 
     //tüübi tegevused - klassi meetodid
     public void arvutaPindala(){
