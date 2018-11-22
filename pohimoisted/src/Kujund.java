@@ -24,6 +24,11 @@ public class Kujund {
     public void setNurkadeOlemasolu(Boolean nurkadeOlemasolu) {
         this.nurkadeOlemasolu = nurkadeOlemasolu;
     }
+
+    public void setPindala(Double pindala) {
+        this.pindala = pindala;
+    }
+
     //getterid
 
 
@@ -39,9 +44,15 @@ public class Kujund {
         return nurkadeArv;
     }
 
+    public Double getPindala() {
+        return pindala;
+    }
+
     //tüübi tegevused - klassi meetodid
     public void arvutaPindala(){
         System.out.println("Kujund klassi arvutaPindala() meetod");
+        System.out.println(this.pindala);
+
     }
 
     public void valjastaKirjeldus(){

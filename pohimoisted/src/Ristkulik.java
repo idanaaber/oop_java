@@ -13,6 +13,13 @@ public class Ristkulik extends Kujund {
         this.nurk = 90;
 
     }
+    @Override
+    public void arvutaPindala() {
+        System.out.println("Ristkülik klassi arvutapindala() meetod");
+        this.setPindala(this.pikkus * this.laius);
+        System.out.println("Pindala =" + this.getPindala());
+
+    }
 
     @Override
     public void valjastaKirjeldus() {
